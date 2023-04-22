@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>WeatherX</title>
+
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id="dark">
+    <nav
+      class="navbar navbar-expand-lg bg-dark bg-body-tertiary"
+      data-bs-theme="dark"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">WeatherX</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html">About</a>
+            </li>
+          </ul>
+
+          <div class="form-check form-switch">
+            <input
+              class="form-check-input mt-2"
+              type="checkbox"
+              role="switch"
+              id="mode"
+            />
+            <label
+              class="form-check-label text-light"
+              for="flexSwitchCheckDefault"
+              >Dark Mode</label
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <h1>About Us</h1>
+
+        <div class="col-12 col-sm-7">
+          Welcome to our weather website, where you can find all the latest and
+          up-to-date weather information for your location and beyond. Our
+          website provides accurate and reliable weather forecasts, current
+          conditions, and real-time radar and satellite images to help you plan
+          your day and stay prepared for any weather conditions.
+          <br /><br />
+          At our weather website, we believe that weather information should be
+          accessible to everyone. That's why our website is designed to be
+          user-friendly and easy to navigate, whether you're a weather
+          enthusiast or just looking for basic weather information. Our website
+          is optimized for both desktop and mobile devices, so you can access
+          the latest weather information on the go, wherever you are.
+          <br /><br />
+          Thank you for choosing our weather website for your weather
+          information needs. We're dedicated to providing the most accurate and
+          reliable weather information available, and we're committed to helping
+          you stay informed and prepared for any weather conditions.
+        </div>
+        <div class="col-12 col-sm-5">
+          <img
+            src="https://images.pexels.com/photos/209831/pexels-photo-209831.jpeg?auto=compress&cs=tinysrgb&w=600"
+            alt="weather"
+          />
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="darkMode.js"></script>
+  </body>
+</html>

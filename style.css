@@ -1,0 +1,37 @@
+*{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'poppins',sans-serif;
+        }
+        body{
+            font-size: 20px;
+            line-height: 2.5rem;
+        }
+
+        #dark.active{
+            background-color: #042743;
+            color: #fff;
+        }
+        
+        #dark.active th{
+            color: #fff;
+        }
+        #dark.active td{
+            color: #fff;
+        }
+       
+
+        img{
+            width: 100%;
+            /* margin: 1rem;
+            padding: 1rem; */
+            border-radius: 40px;
+        }
+
+        h1{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            margin: 1rem;
+        }
